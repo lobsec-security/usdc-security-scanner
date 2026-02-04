@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "description": "USDC contract addresses and Circle CCTP contracts across supported chains",
+    "lastUpdated": "2026-02-03"
+  },
+  "usdc": {
+    "ethereum": {
+      "mainnet": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "sepolia": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238"
+    },
+    "base": {
+      "mainnet": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "sepolia": "0x036CbD53842c5426634e7929541eC2318f3dCF7e"
+    },
+    "arbitrum": {
+      "mainnet": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "sepolia": "0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d"
+    }
+  },
+  "cctp": {
+    "tokenMessenger": {
+      "ethereum": {
+        "mainnet": "0xBd3fa81B58Ba92a82136038B25aDec7066af3155",
+        "sepolia": "0x9f3B8679c73C2Fef8b59B4f3444d4e156fb70AA5"
+      },
+      "base": {
+        "mainnet": "0x1682Ae6375C4E4A97e4B583BC394c861A46D8962",
+        "sepolia": "0x9f3B8679c73C2Fef8b59B4f3444d4e156fb70AA5"
+      },
+      "arbitrum": {
+        "mainnet": "0x19330d10D9Cc8751218eaf51E8885D058642E08A",
+        "sepolia": "0x9f3B8679c73C2Fef8b59B4f3444d4e156fb70AA5"
+      }
+    },
+    "messageTransmitter": {
+      "ethereum": {
+        "mainnet": "0x0a992d191DEeC32aFe36203Ad87D7d289a738F81",
+        "sepolia": "0x7865fAfC2db2093669d92c0F33AeEF291086BEFD"
+      },
+      "base": {
+        "mainnet": "0xAD09780d193884d503182aD4F75D113B9B1a7445",
+        "sepolia": "0x7865fAfC2db2093669d92c0F33AeEF291086BEFD"
+      },
+      "arbitrum": {
+        "mainnet": "0xC30362313FBBA5cf9163F0bb16a0e01f01A896ca",
+        "sepolia": "0x7865fAfC2db2093669d92c0F33AeEF291086BEFD"
+      }
+    },
+    "domainIds": {
+      "ethereum": 0,
+      "base": 6,
+      "arbitrum": 3
+    }
+  },
+  "rpcEndpoints": {
+    "ethereum": {
+      "mainnet": "https://eth.llamarpc.com",
+      "sepolia": "https://rpc.sepolia.org"
+    },
+    "base": {
+      "mainnet": "https://mainnet.base.org",
+      "sepolia": "https://sepolia.base.org"
+    },
+    "arbitrum": {
+      "mainnet": "https://arb1.arbitrum.io/rpc",
+      "sepolia": "https://sepolia-rollup.arbitrum.io/rpc"
+    }
+  },
+  "blockExplorers": {
+    "ethereum": {
+      "mainnet": "https://etherscan.io",
+      "sepolia": "https://sepolia.etherscan.io",
+      "api": "https://api.etherscan.io/api"
+    },
+    "base": {
+      "mainnet": "https://basescan.org",
+      "sepolia": "https://sepolia.basescan.org",
+      "api": "https://api.basescan.org/api"
+    },
+    "arbitrum": {
+      "mainnet": "https://arbiscan.io",
+      "sepolia": "https://sepolia.arbiscan.io",
+      "api": "https://api.arbiscan.io/api"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "@lobsec/usdc-security-scanner",
+  "version": "1.0.0",
+  "description": "AI-powered USDC transaction security scanner — detects wash trading, flash loan attacks, honeypot contracts, and scam addresses across Base, Ethereum, and Arbitrum",
+  "main": "index.js",
+  "author": "LobSec Security <datacentervoid@proton.me>",
+  "license": "MIT",
+  "homepage": "https://lobsec.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lobsec-security/usdc-security-scanner"
+  },
+  "keywords": [
+    "usdc",
+    "security",
+    "scanner",
+    "blockchain",
+    "defi",
+    "wash-trading",
+    "flash-loan",
+    "honeypot",
+    "scam-detection",
+    "base",
+    "ethereum",
+    "arbitrum",
+    "circle",
+    "cctp",
+    "openclaw"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "lint": "echo 'No external linter configured'",
+    "start": "node index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
