@@ -1,5 +1,12 @@
 # USDC Security Scanner
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/lobsec-security/usdc-security-scanner/releases)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/lobsec-security/usdc-security-scanner/actions)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES2022-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![USDC](https://img.shields.io/badge/USDC-Compatible-2775CA.svg)](https://www.circle.com/en/usdc)
+[![CCTP](https://img.shields.io/badge/CCTP-Supported-2775CA.svg)](https://www.circle.com/en/cross-chain-transfer-protocol)
+
 **AI-powered transaction security for USDC operations.** Scans addresses, detects scam patterns, validates transfers before execution.
 
 Built by [LobSec](https://lobsec.org) — AI Security for the Agent Economy.
